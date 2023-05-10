@@ -1,0 +1,71 @@
+/* Parte Principal */
+
+@media screen and (min-width: 450px) and (max-width:500px) {
+    .container .login {
+        display: none;
+    }
+    body {
+        text-align: center;
+        height: 125vh;
+    }
+    .container .parte_principal img {
+        width: 80%;
+        margin: auto;
+    }
+    .container h2 {
+        margin: auto;
+    }
+    .container .section {
+        display: block;
+    }
+    .container .section {
+        width: 85%;
+        margin: auto;
+        margin-top: 70px;
+    }
+    .imagem .produto {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 70px;
+    }
+    .container .section .imagem img {
+        width: 15rem;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width:450px) {
+    .container .login {
+        display: none;
+    }
+    body {
+        height: 115vh;
+        text-align: center;
+    }
+    .container .parte_principal img {
+        width: 80%;
+        margin: auto;
+    }
+    .container h2 {
+        margin: auto;
+        font-size: 31px;
+    }
+    .container .section {
+        display: block;
+    }
+    .container .section {
+        width: 85%;
+        margin: auto;
+        margin-top: 70px;
+    }
+    .imagem .produto {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 70px;
+    }
+    .container .section .imagem img {
+        width: 14.6rem;
+        width: 12.6rem;
+        margin: auto;
+    }
+}

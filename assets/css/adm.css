@@ -1,0 +1,54 @@
+body {
+    background-image: url(../img/BackgroundBancoDeDados.jpg);
+    background-size: cover;
+    color: antiquewhite;
+    height: 120vh;
+}
+
+.BANCO {
+    display: flex;
+    width: 70%;
+    height: 300px;
+    margin: auto;
+    margin-top: 70px;
+}
+
+.main .msg img {
+    width: 25%;
+    margin-left: 490px;
+}
+
+h1 {
+    text-align: center;
+    color: aliceblue;
+}
+
+.bancosdeDados {
+    margin: auto;
+    border-radius: 6px;
+    border-style: solid;
+    border-width: 1px;
+    text-shadow: #000 2px 3px 2px;
+}
+
+.main img {
+    width: 100%;
+}
+
+p {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+.bancosdeDados:hover {
+    animation: animationProduto 1.2s;
+    cursor: pointer;
+}
+
+@keyframes animationProduto {
+    30% {
+        -webkit-transform: translateY((-15px));
+        transform: translateY(-15px);
+    }
+}

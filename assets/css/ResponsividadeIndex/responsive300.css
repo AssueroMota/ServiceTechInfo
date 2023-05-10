@@ -1,0 +1,75 @@
+/* PARTE PRINCIPAL INDEX */
+
+@media screen and (min-width: 300px) and (max-width:349px) {
+    .container .login {
+        display: none;
+    }
+    body {
+        height: 110vh;
+        text-align: center;
+    }
+    .container .parte_principal img {
+        width: 60%;
+        margin: auto;
+    }
+    .container h2 {
+        margin: auto;
+        font-size: 20px;
+    }
+    .container .section {
+        display: block;
+    }
+    .container .section {
+        width: 80%;
+        margin: auto;
+    }
+    .imagem .produto {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 65px;
+    }
+    .container .section .imagem img {
+        width: 9.7rem;
+        margin: auto;
+    }
+    .section .imagem .descricao {
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 350px) and (max-width:400px) {
+    .container .login {
+        display: none;
+    }
+    body {
+        height: 110vh;
+        text-align: center;
+    }
+    .container .parte_principal img {
+        width: 80%;
+        margin: auto;
+    }
+    .container h2 {
+        margin: auto;
+        font-size: 14px;
+    }
+    .container .section {
+        display: block;
+    }
+    .container .section {
+        width: 70%;
+        margin: auto;
+        margin-top: 70px;
+    }
+    .imagem .produto {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 65px;
+    }
+    .container .section .imagem img {
+        width: 12rem;
+    }
+    .section .imagem .descricao {
+        font-size: 16px;
+    }
+}

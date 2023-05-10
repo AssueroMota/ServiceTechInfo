@@ -1,0 +1,48 @@
+/* Menu Principal */
+
+@media screen and (min-width: 500px) and (max-width:600px) {
+    .login {
+        display: none;
+    }
+
+    body {
+        height: 155vh;
+        text-align: center;
+        height: 130vh;
+    }
+
+    .container .parte_principal img {
+        width: 70%;
+        margin: auto;
+    }
+
+    .container h2 {
+        margin: auto;
+    }
+
+    .container .section {
+        display: block;
+    }
+
+    .container .section {
+        min-height: 80vh;
+        width: 78%;
+        margin: auto;
+        margin-top: 70px;
+    }
+
+    .container .section .imagem img {
+        width: 16rem;
+    }
+
+    .imagem .produto {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 70px;
+    }
+
+    body {
+        height: 130vh;
+    }
+
+}

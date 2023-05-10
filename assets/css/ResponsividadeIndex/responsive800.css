@@ -1,0 +1,34 @@
+/* MENU PRINCIPAL INDEX */
+
+@media screen and (min-width: 800px) and (max-width:990px) {
+    .login {
+        display: none;
+    }
+    body {
+        height: 55rem;
+    }
+    .imagem {
+        width: 80%;
+    }
+    .container .parte_principal img {
+        width: 43%;
+        margin: auto;
+    }
+    .container h2 {
+        margin: auto;
+    }
+    .container .section {
+        display: block;
+        margin: auto;
+    }
+    .container .section {
+        max-height: 90vh;
+        width: 60%;
+        margin-left: 13rem;
+    }
+    .imagem .produto {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 70px;
+    }
+}

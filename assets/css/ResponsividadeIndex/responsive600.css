@@ -1,0 +1,29 @@
+/* MENU PRINCIPAL INDEX */
+@media screen and (min-width: 600px) and (max-width:650px) {
+
+    .login {
+        display: none;
+    }
+    body{
+        height: 115vh;
+    }
+    .container h2 {
+        margin: auto;
+    }
+    .container .section {
+        display: block;
+    }
+
+    .container .section {
+        min-height: 90vh;
+        width: 75%;
+        margin: auto;
+        margin-top: 70px;
+    }
+    .imagem .produto {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 70px;
+    }
+
+}

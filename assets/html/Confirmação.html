@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Required meta tags -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/manutencao.css">
+</head>
+
+<body class="body">
+    <header id="header">
+        <a href="index.html"><img src="logo.png" alt="logo"></a>
+        <h1> CHAMADOS DE T.I </h1>
+        <div id="line-header"></div>
+    </header>
+    <div class='container'>
+        <div class='espacamento'>
+            <section>
+                <div class="mensagem">
+                    <br>
+                    <div id='msgError'></div>
+                    <div id='msgSuccess'></div>
+                    <br>
+                    <div class="img"></div>
+                </div>
+            </section>
+            <br>
+            <div class="Main">
+                <form action="https://formsubmit.co/litoraneus.sti@litoraneus.com" method="POST" class="btn_Sub_form1">
+                    <div class="Prazo"></div>
+                    <div class="flutuacao">
+                        <input name="Usuarios" type="text" id="nome" placeholder=" " required>
+                        <label id="labelNome" for="nome">Digite Nome do Solicitante</label>
+                    </div>
+                    <div class="flutuacao">
+                        <input name="Email" type="email" id="email" placeholder=" " required>
+                        <label id="labelEmail" for="email">Digite um email Valido!</label>
+                    </div>
+                    <label id="labelNome" for="setor">Qual Setor: </label>
+                    <br>
+                    <select name="Setor" required id="Setor">
+                        <label for='styledSelect1' class='custom-select'></label>
+                        <option value="BOA VIAGEM / T.I">Boa Viagem / T.I</option>
+                        <option value="DEPARTAMENTO PESSOAL" selected>Departamento Pessoal</option>
+                        <option value="Fiscal Acene">Fiscal Acene</option>
+                        <option value="PCP / LOJA VIRTUAL">PCP / Loja Virtual</option>
+                        <option value="COSTURA / ACABAMENTO">COSTURA / ACABAMENTO</option>
+                        <option value="ESTOQUE">Estoque / Almoxarifado </option>
+                        <option value="EXPEDIÇÃO">Expedição / Corte</option>
+                        <option value="GRÁFICO">Gráfico</option>
+                        <option value="LOJA OUTLET">Loja Outlet</option>
+                        <option value="LOJA MIDWAY">Loja Midway</option>
+                        <option value="LOJA PARALELA">Loja Paralela</option>
+                        <option value="LOJA Praia do Forte">Loja Praia do Forte</option>
+                        <option value="COMERCIAL">Comercial</option>
+                        <option value="Mag Shopping">Mag Shopping</option>
+                        <option value="LOJA SHOPPING RIO MAR">Shopping Rio Mar</option>
+                        <option value="LOJA SHOPPING RECIFE">Shopping Recife</option>
+                        <option value="LOJA SHOOPING GUARARAPES">Shopping Guararapes</option>
+                        <option value="LOJA SHOPPING SALVADOR">Shopping Salvador</option>
+                    </select>
+                    <input type="text" name="Data" id="dataToday" />
+                    <br>
+                    <label id="labelUrgencia" for="grau">Grau de Urgência: </label>
+                    <br>
+                    <select name="Nivel de Urgência" required id="Urgencia">
+                        <label for='styledSelect1' class='custom-select'></label>
+                        <option value="Muito Urgente">Muito Urgente</option>
+                        <option value=" Urgencia Moderada" selected> Urgência
+                            Moderada</option>
+                        <option value="Pouca Urgencia">Pouca Urgência</option>
+                    </select>
+                    <div id="msg">
+                        <label id="descricao" for="msg"></label>
+                        <textarea placeholder="Relate o Problema" name="Descrição do Problema" id="RelatoUser" onclick="EnvioFormMail()"></textarea>
+                    </div>
+                    <!--CAMPO PARA DESABILITAR ALGUMAS FUNCOES DO FORMSUBMIT E NÃO PERMITIR CERTAS COISAS!-->
+                    <div class="New_Mailer"></div>
+                    <div class="Prazo"></div>
+                    <input type="hidden" name="_subject" value="CHAMADOS T.I LITORANEUS">
+                    <input type="hidden" name="_template" value="box">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_next" value="https://litoraneus-ti.github.io/TechLito/index.html">
+                    <div class='justify-center'>
+                        <input type="submit" value="Enviar" class="enviarForm-1" id="form1">
+                    </div>
+                </form>
+            </div>
+        </div>
+        </form>
+        <script src="../js/ConfirmaçaoManutenção.js"></script>
+</body>
+
+</html>

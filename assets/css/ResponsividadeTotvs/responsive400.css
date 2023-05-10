@@ -1,0 +1,33 @@
+@media screen and (min-width: 400px) and (max-width:500px) {
+    body {
+        height: 108vh;
+    }
+   
+    body .header #img_mobile {
+        display: block;
+    }
+    body .logo img {
+        display: none;
+    }
+
+    body .header h2 {
+        font-size: 16px;
+        text-align: center;
+        margin-top: 5px;
+    }
+
+    body .header #img_mobile {
+        display: block;
+        width: 100%;
+    }
+    body .container {
+        padding: 5px;
+        width: 85%;
+        margin: auto;
+    }
+
+    button {
+        margin-top: 25px;
+    }
+
+}

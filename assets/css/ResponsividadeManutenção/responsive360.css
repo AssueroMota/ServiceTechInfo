@@ -1,0 +1,28 @@
+/* Responsividade parte da manutenção */
+
+@media screen and (min-width: 300px) and (max-width:349px) {
+    #header h1 {
+        font-size: 24px;
+    }
+    #msg textarea {
+        min-width: 280px;
+        min-height: 150px;
+        max-width: 350px;
+        max-height: 200px;
+        width: 120px;
+        margin-right: 10px;
+    }
+    #msg textarea {
+        min-width: 17rem;
+    }
+}
+
+@media screen and (min-width: 350px) and (max-width:400px) {
+    #header h1 {
+        font-size: 28px;
+    }
+    #msg textarea {
+        max-width: 120px;
+    }
+
+}

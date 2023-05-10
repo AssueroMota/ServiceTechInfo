@@ -1,0 +1,29 @@
+/* RESPONSIVIDADE DA MANUTENÇÃO */
+
+@media screen and (min-width: 700px) {
+    form input {
+        margin-top: 10px;
+    }
+
+    header h1 {
+        font-size: 35px;
+    }
+
+    header img {
+        margin-left: 7%;
+    }
+}
+
+@media screen and (max-width: 699px) {
+    form input {
+        margin-top: 10px;
+    }
+
+    header h1 {
+        font-size: 35px;
+    }
+
+    header img {
+        margin-left: 7%;
+    }
+}

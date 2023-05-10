@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../css/totvs.css" />
+  <!-- responsividade -->
+  <link rel="stylesheet" href="../css/ResponsividadeTotvs/responsive300.css" />
+  <link rel="stylesheet" href="../css/ResponsividadeTotvs/responsive380.css" />
+  <link rel="stylesheet" href="../css/ResponsividadeTotvs/responsive400.css" />
+  <link rel="stylesheet" href="../css/ResponsividadeTotvs/responsive700.css" />
+  <link rel="stylesheet" href="../css/ResponsividadeTotvs/responsive800.css" />
+ <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <title>Formulário TOTVS</title>
+</head>
+
+<body>
+  <div class="logo">
+    <a href="../../index.html"><img src="../../assets/img/LogoTotvs.jpg" width="70%" alt="LogoTotvsDesktop"></a>
+  </div>
+  <div class="container">
+    <div class="header">
+      <img src="../../assets/img/TotvsLogoMobile.png" alt="mobileIMG" id="img_mobile">
+      <h2>PREENCHA AS INFORMAÇÕES</h2>
+    </div>
+
+    <!-- CAMPOS FORMULARIOS -->
+    <form id="form" class="form" method="post" action="https://api.sheetmonkey.io/form/xA6j6rHmgyVprc5HNS55Ku">
+      <div class="form-control">
+        <label for="nome" id="labelNome">Codigo do Usuario, Login.</label>
+        <input type="text" id="nome" placeholder="Digite seu nome de usuário..." name="Codigo do Usuario" required />
+        <i class="fas fa-exclamation-circle"></i>
+        <i class="fas fa-check-circle"></i>
+        <small>Mensagem de erro</small>
+      </div>
+
+      <div class="form-control">
+        <label for="Componente" id="labelComponente">Codigo do Componente</label>
+        <input type="text" id="Componente" placeholder="Digite o Componente.." required name="Codigo do Componente"
+          maxlength="8" />
+        <i class="fas fa-exclamation-circle"></i>
+        <i class="fas fa-check-circle"></i>
+        <small>Mensagem de erro</small>
+      </div>
+
+      <div class="form-control">
+        <label for="operação">Codigo da <U>Operação</U>, Nome da <u>Restrição</U> ou alguma <u>Observação.</u></label>
+        <input type="text" id="operação" placeholder="Digite a operação.." name="Operação" />
+        <i class="fas fa-exclamation-circle"></i>
+        <i class="fas fa-check-circle"></i>
+        <small>Mensagem de erro</small>
+      </div>
+
+      <div class="form-control">
+        <label for="COD">Nome ou Codigo da Empresa</label>
+        <input type="text" id="COD" placeholder="Digite o COD da empresa... ex: 700" required name="Codigo da Empresa"
+          maxlength="5" />
+        <i class="fas fa-exclamation-circle"></i>
+        <i class="fas fa-check-circle"></i>
+        <small>Mensagem de erro</small>
+      </div>
+
+      <input type="text" name="Data" id="dataToday" />
+      <button type="submit" onclick="soliCitar()" class="botaosolicita">Solicitar</button>
+    </form>
+  </div>
+
+  <script src="https://kit.fontawesome.com/f9e19193d6.js" crossorigin="anonymous"></script>
+
+  <script src="../../assets/js/totvs.js"></script>
+</body>
+
+</html>
