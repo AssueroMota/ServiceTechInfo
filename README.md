@@ -1,6 +1,6 @@
 # Litoraneus - Solicitação de Serviços Técnicos e Administrativos
 
-Este repositório contém o código-fonte para a aplicação web desenvolvida por Assuero na empresa Litoraneus para solicitação de serviços técnicos e administrativos de TI.
+Este repositório contém o código-fonte da primeira aplicação web desenvolvida por Assuero na empresa Litoraneus para solicitação de serviços técnicos e administrativos de TI.
 
 ## Visão Geral
 
