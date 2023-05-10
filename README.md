@@ -1,10 +1,10 @@
 # Litoraneus - Solicitação de Serviços Técnicos e Administrativos
 
-Este repositório contém o código-fonte para a aplicação web desenvolvida pela empresa Litoraneus para solicitação de serviços técnicos e administrativos de TI.
+Este repositório contém o código-fonte para a aplicação web desenvolvida por Assuero na empresa Litoraneus para solicitação de serviços técnicos e administrativos de TI.
 
 ## Visão Geral
 
-A empresa Litoraneus identificou que a solicitação de serviços técnicos de TI e autorizações administrativas era realizada de forma verbal ou por meio de redes sociais, resultando em uma falta de organização e priorização dos atendimentos. Para solucionar este problema, a empresa desenvolveu uma aplicação web para que os colaboradores possam realizar suas solicitações de forma organizada e padronizada.
+A empresa Litoraneus identificou que a solicitação de serviços técnicos de TI e autorizações administrativas era realizada de forma verbal ou por meio de redes sociais, resultando em uma falta de organização e sem priorização dos atendimentos de forma correta. Para solucionar este problema, Assuero desenvolveu uma aplicação web para que os colaboradores possam realizar suas solicitações de forma organizada e padronizada.
 
 A aplicação conta com duas opções de serviço: "Serviços de T.I." e "Serviços Totvs". Ao selecionar a opção "Serviços de T.I.", o usuário é direcionado a um formulário onde deve preencher suas informações pessoais e detalhes sobre o serviço solicitado. Ao selecionar a opção "Serviços Totvs", o usuário deve preencher informações específicas sobre o componente do sistema Totvs que está apresentando problema.
 
